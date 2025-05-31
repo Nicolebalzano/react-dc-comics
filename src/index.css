@@ -10,6 +10,7 @@ body {
 img{
   max-width: 100%;
 }
+/* HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,4 +42,17 @@ img{
 }
 .active {
   color: rgb(85, 85, 224);
+}
+/* MAIN */
+.main{
+  width: 100%;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(5, 5, 5);
+  font-weight: 600;
+  font-size: 0.80rem;
+  padding: 30px;
+  color: rgb(255, 255, 255);
 }
