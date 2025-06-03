@@ -1,5 +1,7 @@
 function Header(){
     return <header className="header">
+        <div className="container">
+            <div className="flex-col">
         <img src="/dc-logo.png" alt="" className= "col-30"/>
         <ul className= "col-70">
             <li><a href="">Character</a></li>
@@ -13,6 +15,8 @@ function Header(){
             <li><a href="">News</a></li>
             <li><a href="">Shop</a></li>
         </ul>
+        </div>
+        </div>
     </header>
 }
 export default Header

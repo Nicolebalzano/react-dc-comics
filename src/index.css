@@ -10,20 +10,27 @@ body {
 img{
   max-width: 100%;
 }
+ul {
+  list-style: none;
+}
+.container{
+  max-width:800px;
+  width: 80%;
+  margin: 0 auto;
+}
 /* HEADER */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
   height: 100px;
   background-color: rgb(244, 241, 241);
   font-weight: 600;
-  font-size: 0.80rem;
   padding: 30px;
 }
 .header img{
-  width: 70px;
-  margin-left: 100px;
+  width: 60px;
 }
 .header ul {
   display: flex;
@@ -35,24 +42,106 @@ img{
   color: inherit;
 }
 .col-30{
-  width: 30%;
+  width: 50%;
+
 }
 .col-70{
   width: 70%;
+}
+.flex-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 .active {
   color: rgb(85, 85, 224);
 }
 /* MAIN */
-.main{
-  width: 100%;
-   display: flex;
-  justify-content: space-between;
-  align-items: center;
+.content{
   height: 100px;
   background-color: rgb(5, 5, 5);
   font-weight: 600;
-  font-size: 0.80rem;
   padding: 30px;
   color: rgb(255, 255, 255);
 }
+/* BLUESTRIPE */
+.blue-stripe{
+  height: 150px;
+  background-color: rgb(18, 117, 255);
+  color: #ffffff;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 20px;
+}
+.col-30 img{
+width: 100px;
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+}
+.col-70 span{
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+/* FOOTER */
+.footer{
+background-image: url("../public/footer-bg.jpg");
+color: rgb(226, 226, 226);
+font-size: 0.8rem;
+position: relative;
+}
+.col-4{
+  width: calc(100% / 4);
+}
+.col-4 h4{
+  font-weight:bolder ;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.col-4 ul {
+  font-weight: 200;
+  color: rgb(237, 236, 236);
+}
+.flex-footer{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 30px;
+}
+.footer-bottom{
+  height: 100px;
+  background-color:rgb(58, 57, 57);
+}
+.signUp-btn{
+  padding: 15px;
+  background-color: rgb(58, 57, 57);
+  border: 3px solid rgb(63, 63, 202);
+  color: white;
+}
+.signUp-btn a {
+  color: inherit;
+  text-decoration: none;
+}
+h5 a {
+   color: rgb(63, 63, 246);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.flex-logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+gap: 5px;
+}
+.flex-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 20px;
+}
+

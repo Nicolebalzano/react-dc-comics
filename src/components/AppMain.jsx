@@ -1,6 +1,10 @@
 function Main(){
-    return <main className="main col-30">
-    <p>--Content goes here--</p>
+    return <main>
+       
+        <div className="content"> 
+            <div className="container">
+    <p>--Content goes here--</p></div>
+    </div>
     </main>
 }
 export default Main
