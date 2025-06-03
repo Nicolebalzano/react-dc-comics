@@ -1,7 +1,6 @@
 function Footer() {
     return <footer className="footer">
         <div className="container">
-            <div className="footer-links">
 <div className="flex">
                 {/* col30 */}
                 <div className="col-30"><div className="flex-footer">
@@ -56,7 +55,7 @@ function Footer() {
                 </div>
             </div>
            
-            </div> 
+        
             {/* FOOTER BOTTOM */}
             <div className="footer-bottom">
                 <div className="container">
