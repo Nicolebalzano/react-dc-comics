@@ -7,9 +7,9 @@ function Main() {
             <div className="cards">
                 <div className="flex-card">
                     {comics.map((curCard) => (
-                        <div className="col-2">
+                        <div className="col-2" key={`${curCard.id}`}>
                             <div className="thumb"><img src={curCard.thumb} alt={curCard.title} /></div>
-                            <div className="card-title">{curCard.title}</div>
+                            <div className="card-title">{curCard.series}</div>
                         </div>
                     ))}
                 </div>
