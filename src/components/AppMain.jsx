@@ -1,10 +1,9 @@
-function Main(){
-    return <main>
-       
-        <div className="content"> 
-            <div className="container">
-    <p>--Content goes here--</p></div>
-    </div>
+function Main() {
+    return <main className="main">
+        <div className="container">
+<button className="main-btn"><a href="">CURRENT SERIES</a></button>
+        </div>
+
     </main>
 }
 export default Main
