@@ -115,7 +115,7 @@ font-size: 0.8rem;
 }
 .footer-bottom{
   height: 100px;
-  background-color:rgb(58, 57, 57);
+  background-color:rgb(45, 45, 45);
 }
 .signUp-btn{
   padding: 15px;
@@ -153,15 +153,18 @@ background-image: url("/public/jumbotron.jpg");
 }
 /* MAIN */
 .main{
-  background-color: rgb(41, 39, 39);
+  background-color: rgb(45, 45, 45);
 }
 .main a{
  color: white;
  font-weight: 900;
 }
 .main-btn{
-  padding: 15px;
+  padding: 10px 20px;
   background-color: rgb(73, 73, 250);
+  position: absolute;
+transform: translate(-50%, -50%);
+    border: 1px solid rgb(73, 73, 250);
 }
 .flex-card{
   display: flex;
@@ -184,8 +187,20 @@ background-image: url("/public/jumbotron.jpg");
 }
 .cards {
   padding-bottom: 50px;
+    padding-top: 70px;
 }
 .card-title{
   font-weight: 700;
   color: #fff;
+}
+.flex-more-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.flex-more-btn button{
+   padding: 8px 40px;
+  background-color: rgb(73, 73, 250);
+  border: 1px solid rgb(73, 73, 250);
 }
