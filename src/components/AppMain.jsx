@@ -1,4 +1,5 @@
 import comics from "./comics"
+import AppCard from "./AppCards"
 function Main() {
     return <main className="main">
         <div className="container">
@@ -7,10 +8,12 @@ function Main() {
             <div className="cards">
                 <div className="flex-card">
                     {comics.map((curCard) => (
-                        <div className="col-2" key={`${curCard.id}`}>
-                            <div className="thumb"><img src={curCard.thumb} alt={curCard.title} /></div>
-                            <div className="card-title">{curCard.series}</div>
-                        </div>
+                        <AppCard 
+                        key = {`${curCard.id}`}
+                        title = {curCard.title}
+                        series = {curCard.series}
+                        thumb = {curCard.thumb}
+                        />
                     ))}
                 </div>
             </div>
