@@ -77,14 +77,15 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-padding: 13px;
-gap: 10px;
+padding-top: 20px;
 }
 .col-30 img{
-width: 100px;
+    width: 100px;
     height: auto;
     object-fit: contain;
     max-width: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 .col-70 span{
   font-size: 0.9em;
