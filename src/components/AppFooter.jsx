@@ -51,7 +51,6 @@ function Footer() {
 
                     {/* fine col-30 */}
                 </div>
-                <div className="col-70"><img src="/dc-logo-bg.png" alt="" /></div>
                 </div>
             </div>
            
