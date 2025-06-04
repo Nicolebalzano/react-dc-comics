@@ -65,11 +65,11 @@ function Footer() {
                         <div className="col-30"><h5><a href="">FOLLOW US</a></h5></div>
                         <div className="col-70">
                             <div className="flex-logos">
-                            <div ><img src="/footer-facebook.png" alt="" /></div>
-                        <div><img src="/footer-twitter.png" alt="" /></div>
-                        <div><img src="/footer-youtube.png" alt="" /></div>
-                        <div><img src="/footer-pinterest.png" alt="" /></div>
-                         <div><img src="/footer-periscope.png" alt="" /></div>
+                         <img src="/footer-facebook.png" alt="" />
+                        <img src="/footer-twitter.png" alt="" />
+                        <img src="/footer-youtube.png" alt="" />
+                        <img src="/footer-pinterest.png" alt="" />
+                       <img src="/footer-periscope.png" alt="" />
                         </div>
                         </div>
                     </div>
